@@ -29,7 +29,7 @@ Berikut isi atribut serta deskripsinya:
 | Atribut     | Tipe Data | Keterangan                  |
 | ----------- | --------- | --------------------------- |
 | id          | INT       | Primary Key, auto increment |
-| nama\_kelas | VARCHAR   | Nama kelas                  |
+| nama | VARCHAR   | Nama kelas                  |
 
 3. Jurusan  
 Berikut isi atribut serta deskripsinya:
@@ -37,7 +37,7 @@ Berikut isi atribut serta deskripsinya:
 | Atribut     | Tipe Data | Keterangan                  |
 | ----------- | --------- | --------------------------- |
 | id          | INT       | Primary Key, auto increment |
-| nama\_kelas | VARCHAR   | Nama kelas                  |
+| nama | VARCHAR   | Nama kelas                  |
 
 ## 2. Arsitektur MVC dan Template
 
