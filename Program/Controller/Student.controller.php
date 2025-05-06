@@ -1,8 +1,8 @@
 <?php
 include_once("conf.php");
 include_once("Model/Student.class.php");
-include_once("Model/Kelas.class.php");  // Pastikan model Kelas sudah ada
-include_once("Model/Jurusan.class.php");  // Pastikan model Jurusan sudah ada
+include_once("Model/Kelas.class.php"); 
+include_once("Model/Jurusan.class.php");
 include_once("View/StudentView.php");
 
 class StudentController
