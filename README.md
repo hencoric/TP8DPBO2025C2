@@ -55,7 +55,7 @@ Selain tiga itu, ada juga **Template**, yaitu file HTML mentah yang belum langsu
 
 # Alur Program
 
-Diawal pastikan dulu server Apache dan MySQL sudah aktif. Setelah itu, buka browser dan akses `index.php` lewat URL. Di halaman utamanya bakal kelihatan tampilan dengan navbar di bagian atas yang berisi tiga menu: **students**, **prestasi**, dan **akademik**. Kalau salah satu menu diklik, akan muncul data dalam bentuk tabel di mana kita bisa melakukan aksi CRUD (Create, Read, Update, Delete). Kalau mau tambah atau edit data, kita akan diarahkan ke form HTML khusus.
+Diawal pastikan dulu server Apache dan MySQL sudah aktif. Setelah itu, buka browser dan akses `index.php` lewat URL. Di halaman utamanya bakal kelihatan tampilan dengan navbar di bagian atas yang berisi tiga menu: **students**, **kelas**, dan **jurusan**. Kalau salah satu menu diklik, akan muncul data dalam bentuk tabel di mana kita bisa melakukan aksi CRUD (Create, Read, Update, Delete). Kalau mau tambah atau edit data, kita akan diarahkan ke form HTML form.
 
 Untuk alur kerjanya dalam sistem MVC, misalnya kita mau menambahkan data mahasiswa:
 
