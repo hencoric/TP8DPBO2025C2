@@ -65,7 +65,6 @@ Untuk alur kerjanya dalam sistem MVC, misalnya kita mau menambahkan data mahasis
 * Di bagian model inilah query untuk menyimpan data ke database dijalankan.
 * Kalau penyimpanan berhasil, user akan kembali diarahkan ke halaman tabel yang berisi daftar data mahasiswa.
 
-Proses yang sama juga berlaku untuk edit/update data.
+Proses yang sama juga berlaku untuk edit/update data. dengan urlnya `student.php?action=edit&id= idnya`
 
-
-
+# Dokumentasi
