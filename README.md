@@ -69,4 +69,7 @@ Proses yang sama juga berlaku untuk edit/update data. dengan urlnya `student.php
 
 # Dokumentasi
 
-[🎬 Lihat Video Dokumentasi](Dokumentasi/tp8.mp4)
+https://github.com/user-attachments/assets/28fb076c-276f-40ad-8c77-9f1d5f869716
+
+
+
