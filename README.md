@@ -68,3 +68,5 @@ Untuk alur kerjanya dalam sistem MVC, misalnya kita mau menambahkan data mahasis
 Proses yang sama juga berlaku untuk edit/update data. dengan urlnya `student.php?action=edit&id= idnya`
 
 # Dokumentasi
+
+[🎬 Lihat Video Dokumentasi](Dokumentasi/tp8.mp4)
