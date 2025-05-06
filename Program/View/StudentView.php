@@ -11,7 +11,6 @@ class StudentView
         $no = 1;
         $studentData = '';
         foreach ($students as $student) {
-            // Cari nama kelas dan jurusan berdasarkan id_kelas dan id_jurusan
             $kelasName = '';
             foreach ($kelasData as $kelas) {
                 if ($kelas['id'] == $student['id_kelas']) {
@@ -51,9 +50,7 @@ class StudentView
 
     public function renderForm($studentData = null, $isEdit = false, $kelasData = [], $jurusanData = [])
     {
-        // Jika data kelas atau jurusan kosong, ambil dari database
         if (empty($kelasData) || empty($jurusanData)) {
-            // Ambil data kelas
             $kelas = new Kelas(Conf::$DB_HOST, Conf::$DB_USER, Conf::$DB_PASS, Conf::$DB_NAME);
             $kelas->open();
             $kelasData = [];
@@ -62,8 +59,7 @@ class StudentView
                 array_push($kelasData, $row);
             }
             $kelas->close();
-            
-            // Ambil data jurusan
+
             $jurusan = new Jurusan(Conf::$DB_HOST, Conf::$DB_USER, Conf::$DB_PASS, Conf::$DB_NAME);
             $jurusan->open();
             $jurusanData = [];
