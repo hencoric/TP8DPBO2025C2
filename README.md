@@ -10,7 +10,7 @@ Tugas Praktikum 8 kali ini adalah bikin aplikasi buat ngelola data mahasiswa. Ap
 
 ![image](https://github.com/user-attachments/assets/77fd0f5e-9376-468d-bd5c-40afb288aba0)
 
-1. Students
+1. Students  
 Berikut isi atribut serta deskripsinya:
 
 | Atribut     | Tipe Data | Keterangan                     |
